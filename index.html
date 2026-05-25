@@ -1417,12 +1417,19 @@ footer{
   nav.scrolled{padding:14px 24px}
   .nav-links,.nav-btn{display:none}
   .nav-ham{display:flex}
-  .hero-split{grid-template-columns:1fr}
-  .hero-left-panel{padding:7rem 24px 8rem;order:1}
-  .hero-right-panel{order:2;min-height:60vh}
-  .hero-cards{top:4rem;right:.75rem;gap:.5rem}
-  .hero-cards .review-card,.hero-cards .maps-card,.hero-cards .linkedin-card,.hero-cards .instagram-card{width:180px}
-  .hero-photo{opacity:.95}
+  /* ── HERO MOBILE ── */
+  .hero-split{grid-template-columns:1fr;min-height:auto}
+  .hero-left-panel{padding:5.5rem 24px 2.5rem;order:1}
+  .hero-title{font-size:clamp(2.6rem,10vw,3.4rem);line-height:.96;margin-bottom:1.2rem}
+  .hero-desc{font-size:15px;margin-bottom:1.6rem;max-width:100%}
+  .hero-badge{margin-bottom:1.2rem}
+  .badge-sub{display:none}
+  .hero-actions{flex-direction:column;align-items:flex-start;gap:.7rem}
+  .btn-primary,.btn-ghost{width:100%;justify-content:center}
+  .hero-right-panel{order:2;min-height:62vh;max-height:68vh}
+  .photo-wrap{top:-3%;align-items:flex-start}
+  .hero-photo{width:auto;height:100%;opacity:.95}
+  .hero-cards{display:none}
   .hero-logo-bg{width:80%;opacity:.04;top:60%}
   .hero-scroll-hint{display:none}
   .trust-bar{padding:.9rem 0}
